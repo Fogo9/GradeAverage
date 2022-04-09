@@ -2,8 +2,11 @@
 
 
 # Alt Bilgi
-**Bu program Java dili kullanılarak yazıldı.
-Öğrenciler için not ortalaması hesaplama yapmak amacıyla oluşturuldu.**
+**Öğrenciler için not ortalaması hesaplama yapmak amacıyla oluşturuldu.**
+
+# Languages
+
+* JAVA
 
 # İçerik
 
