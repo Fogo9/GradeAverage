@@ -3,7 +3,7 @@
 
 # Sub Information
 
-**Öğrenciler için not ortalaması hesaplama yapmak amacıyla oluşturuldu.**
+**It was created to calculate students grade point averages.**
 
 # Languages
 
