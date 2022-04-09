@@ -1,27 +1,28 @@
-# **Not Ortalaması Hesaplama Programı**
+# **Grade Point Average Calculator**
 
 
-# Alt Bilgi
+# Sub Information
+
 **Öğrenciler için not ortalaması hesaplama yapmak amacıyla oluşturuldu.**
 
 # Languages
 
 * **JAVA**
 
-# İçerik
+# Contents
 
-* Ders değişkenleri oluşturuldu.
+* Course variables are created.
 
-* Scanner sınıfı tanımlandı.
+* Scanner class defined.
 
-* Kullanıcıdan not değerleri alındı.
+* Grade values received from the user.
 
-* Derslerin ortalaması oluşturuldu.
+* The average of the courses was established.
 
-* Ortalama sonucunda kullanıcının geçti/kaldı koşulu oluşturuldu.
+* As a result of the average, the user's pass/fail conditional was created.
 
 ```Java
-        int matematik, fizik, kimya, turkce, tarih, muzik;
+        int mathematics, physics, chemical, turkish, history, music;
 
         Scanner input   =   new Scanner(System.in);
 ```
@@ -29,38 +30,38 @@
 ```Java
         int a = 60, b = 60;
 
-        boolean ort1 = sonuc > a;
-        boolean ort2 = sonuc > b;
+        boolean value1 = result > a;
+        boolean value2 = result > b;
 
-        boolean deger1 = ort1 || ort2;
-        boolean deger2 = (sonuc > a) || (sonuc > b);
+        boolean name1 = value1 || value2;
+        boolean name2 = (result > a) || (result > b);
 
-        String str = (deger2) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+        String str = (name2) ? "Passed The Class" : "Failed The Class";
 
         System.out.println(str);
 ```
 
 
 ```bash
-    Matematik Notunuz :90
-    Fizik Notunuz :70
-    Kimya Notunuz :55
-    Türkçe Notunuz :80
-    Tarih Notunuz :60
-    Müzik Notunuz :75
-    Ortalamanız :71.0
-    Sınıfı Geçti
+    Your Mathematics Grade :90
+    Your Physics Grade :70
+    Your Chemical Grade :55
+    Your Turkish Grade :80
+    Your History Grade :60
+    Your Music Grade :75
+    Your Average :71.0
+    Passed The Class
 ```
 
 ```bash
-    Matematik Notunuz :60
-    Fizik Notunuz :40
-    Kimya Notunuz :50
-    Türkçe Notunuz :35
-    Tarih Notunuz :70
-    Müzik Notunuz :46
-    Ortalamanız :50.0
-    Sınıfta Kaldı
+    Your Mathematics Grade :60
+    Your Physics Grade :40
+    Your Chemical Grade :50
+    Your Turkish Grade :35
+    Your History Grade :70
+    Your Music Grade :46
+    Your Average :50.0
+    Failed The Class
 ```
 
 
