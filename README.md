@@ -6,7 +6,7 @@
 
 # Languages
 
-* JAVA
+* **JAVA**
 
 # İçerik
 
