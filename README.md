@@ -9,13 +9,19 @@
 
 * Ders değişkenleri oluşturuldu.
 
-* Scanner tanımlandı.
+* Scanner sınıfı tanımlandı.
 
 * Kullanıcıdan not değerleri alındı.
 
 * Derslerin ortalaması oluşturuldu.
 
 * Ortalama sonucunda kullanıcının geçti/kaldı koşulu oluşturuldu.
+
+```Java
+        int matematik, fizik, kimya, turkce, tarih, muzik;
+
+        Scanner input   =   new Scanner(System.in);
+```
 
 ```Java
         int a = 60, b = 60;
@@ -30,6 +36,7 @@
 
         System.out.println(str);
 ```
+
 
 ```bash
     Matematik Notunuz :90
