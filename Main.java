@@ -3,44 +3,44 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
 
-        int matematik, fizik, kimya, turkce, tarih, muzik;
+        int mathematics, physics, chemical, turkish, history, music;
 
         Scanner input   =   new Scanner(System.in);
 
-        System.out.print("Matematik Notunuz :");
-        matematik = input.nextInt();
+        System.out.print("Your Mathematics Grade :");
+        mathematics = input.nextInt();
 
-        System.out.print("Fizik Notunuz :");
-        fizik = input.nextInt();
+        System.out.print("Your Physics Grade :");
+        physics = input.nextInt();
 
-        System.out.print("Kimya Notunuz :");
-        kimya = input.nextInt();
+        System.out.print("Your Chemical Grade :");
+        chemical = input.nextInt();
 
-        System.out.print("Türkçe Notunuz :");
-        turkce = input.nextInt();
+        System.out.print("Your Turkish Grade :");
+        turkish = input.nextInt();
 
-        System.out.print("Tarih Notunuz :");
-        tarih = input.nextInt();
+        System.out.print("Your History Grade :");
+        history = input.nextInt();
 
-        System.out.print("Müzik Notunuz :");
-        muzik = input.nextInt();
+        System.out.print("Your Music Grade :");
+        music = input.nextInt();
 
-        int toplam   = (matematik + fizik + kimya + turkce + tarih + muzik);
+        int total  = (mathematics + physics + chemical + turkish + history + music);
 
-        double sonuc    = toplam / 6;
+        double result    = total / 6;
 
-        System.out.println("Ortalamanız :" + sonuc);
+        System.out.println("Your Average :" + result);
 
 
         int a = 60, b = 60;
 
-        boolean ort1 = sonuc > a;
-        boolean ort2 = sonuc > b;
+        boolean value1 = result > a;
+        boolean value2 = result > b;
 
-        boolean deger1 = ort1 || ort2;
-        boolean deger2 = (sonuc > a) || (sonuc > b);
+        boolean name1 = value1 || value2;
+        boolean name2 = (result > a) || (result > b);
 
-        String str = (deger2) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+        String str = (name2) ? "Passed The Class" : "Failed The Class";
 
         System.out.println(str);
 
@@ -53,4 +53,3 @@ public class Main{
 
     }
 }
-
