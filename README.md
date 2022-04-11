@@ -1,18 +1,12 @@
 # **Grade Point Average Calculator**
 
-<br />
-
 # Information
 
 * **It was created to calculate students grade point averages.**
 
-<br />
-
 # Technologies Used
 
 * **JAVA**
-
-<br />
 
 # Contents
 
