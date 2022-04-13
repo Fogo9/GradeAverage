@@ -4,6 +4,7 @@ public class Gradeaverage{
     public static void main(String[] args) {
 
         int mathematics, physics, chemical, turkish, history, music;
+        
 
         Scanner input   =   new Scanner(System.in);
 
@@ -43,13 +44,6 @@ public class Gradeaverage{
         String str = (name2) ? "Passed The Class" : "Failed The Class";
 
         System.out.println(str);
-
-
-
-
-
-
-
 
     }
 }
