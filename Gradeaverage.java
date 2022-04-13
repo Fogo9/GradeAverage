@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main{
+public class Gradeaverage{
     public static void main(String[] args) {
 
         int mathematics, physics, chemical, turkish, history, music;
