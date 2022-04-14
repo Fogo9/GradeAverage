@@ -27,7 +27,7 @@
         int mathematics, physics, chemical, turkish, history, music;
 
         Scanner input   =   new Scanner(System.in);
-        
+
 ```
 
 ```Java
