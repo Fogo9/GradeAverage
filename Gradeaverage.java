@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Gradeaverage{
+    
     public static void main(String[] args) {
 
         int mathematics, physics, chemical, turkish, history, music;
@@ -25,6 +26,7 @@ public class Gradeaverage{
 
         System.out.print("Your Music Grade :");
         music = input.nextInt();
+        
 
         int total  = (mathematics + physics + chemical + turkish + history + music);
 
