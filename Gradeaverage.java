@@ -46,6 +46,5 @@ public class Gradeaverage{
         String str = (name2) ? "Passed The Class" : "Failed The Class";
 
         System.out.println(str);
-
     }
 }
