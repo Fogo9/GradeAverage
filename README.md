@@ -1,14 +1,14 @@
 # **Grade Point Average Calculator**
 
-# Information
+## INFORMATION
 
 * **It was created to calculate students grade point averages.**
 
-# Technologies Used
+## TECHNOLOGIES USED
 
 * **JAVA**
 
-# Contents
+## CONTENTS
 
 * Course variables are created.
 
@@ -20,7 +20,7 @@
 
 * As a result of the average, the user's pass/fail conditional was created.
 
-<br />
+## CODES
 
 ```Java
 
@@ -74,13 +74,13 @@
 ```
 <br />
 
-# LINK
+## LINK
 
 * Click here https://github.com/Fogo9/GradeAverage.git to access the Github page for this project.
 
 <br />
 
-# LICENSE
+## LICENSE
 
 * This software is licensed By Tuncay Demir under the MIT license.
 
