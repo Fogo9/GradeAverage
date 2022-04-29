@@ -1,4 +1,4 @@
-# **Grade Point Average Calculator**
+# **GRADE POINT AVERAGE CALCULATOR**
 
 ## INFORMATION
 
